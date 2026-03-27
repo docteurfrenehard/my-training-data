@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T23:00:25.192199",
+  "generated_at": "2026-03-27T00:03:21.818026",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 8,
@@ -249,54 +249,6 @@
           "avg_hr": 122,
           "max_hr": 123,
           "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i133003148",
-      "date": "2026-03-18",
-      "type": "VirtualRide",
-      "name": "Entra\u00eenement libre",
-      "interval_summary": [
-        "1x 36m57s 195w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 287,
-          "avg_power": 118,
-          "max_power": 206,
-          "avg_hr": 125,
-          "max_hr": 134,
-          "avg_cadence": 82.82741,
-          "zone": 1,
-          "training_load": 2.636513,
-          "decoupling": 11.489446
-        },
-        {
-          "type": "WORK",
-          "label": "2217s@195w82rpm",
-          "duration_secs": 2217,
-          "avg_power": 195,
-          "max_power": 205,
-          "avg_hr": 141,
-          "max_hr": 147,
-          "avg_cadence": 81.7429,
-          "zone": 3,
-          "training_load": 36.012398,
-          "decoupling": 3.104317
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 342,
-          "avg_power": 78,
-          "max_power": 195,
-          "avg_hr": 124,
-          "max_hr": 146,
-          "avg_cadence": 88.45614,
-          "zone": 1,
-          "training_load": 1.346436,
-          "decoupling": -12.1673975
         }
       ]
     },
