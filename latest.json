@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-28T18:02:46.180325",
+    "last_updated": "2026-03-28T19:46:35.535338",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -402,7 +402,7 @@
           "race_proximity": null,
           "next_week_load": null,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 0.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -435,7 +435,7 @@
     "p_max": 634,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-28T18:02:46.178977",
+    "calculation_timestamp": "2026-03-28T19:46:35.533967",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 0,
@@ -847,8 +847,8 @@
       "efficiency_factor": null,
       "hrrc": null,
       "elevation_m": null,
-      "feel": null,
-      "rpe": null,
+      "feel": 2,
+      "rpe": 3,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 1280,
@@ -1185,15 +1185,97 @@
       "duration_formatted": "1h27m45s",
       "workout_summary": null,
       "description": "- 30m Z1-Z2 Power\n\n - 15s Z6 Power cadence 50\n - 4m Z1 Power cadence 95\n - 15s Z6 Power cadence 50\n - 4m Z1 Power cadence 95\n - 15s Z6 Power cadence 50\n - 4m Z1 Power cadence 95\n\n- 45m Z2 Power cadence 90"
+    },
+    {
+      "id": 101141623,
+      "date": "2026-03-30",
+      "name": "RECUP_SWIM1",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 14,
+      "duration_hours": 0.43,
+      "duration_formatted": "25m34s",
+      "workout_summary": null,
+      "description": "- 1000 mtr z1 pace"
+    },
+    {
+      "id": 101140385,
+      "date": "2026-04-06",
+      "name": "BUILD_SWIM1",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 23,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m14s",
+      "workout_summary": "10m14s | 20s | 3 \u00d7 3\u00d71m17s / 20s rec | 4\u00d72m10s / 20s rec | 5m7s"
+    },
+    {
+      "id": 101140798,
+      "date": "2026-04-07",
+      "name": "BUILD_RUN1",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 43,
+      "duration_hours": 0.78,
+      "duration_formatted": "46m45s",
+      "workout_summary": "15m | 3\u00d720s / 40s rec | 5\u00d745s @33W / 3m rec | 10m"
+    },
+    {
+      "id": 101139515,
+      "date": "2026-04-08",
+      "name": "BYCICLE_BUILD_1",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 18,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description_preview": "- 45m Z1"
+    },
+    {
+      "id": 101139516,
+      "date": "2026-04-09",
+      "name": "BUILD_RUN1",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 40,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description_preview": "- 40m Z2 HR"
+    },
+    {
+      "id": 101139517,
+      "date": "2026-04-10",
+      "name": "BUILD_SWIM2",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 38,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "description_preview": "- 400 meters Z1 Pace\n- 0.5km Z2 Pace\n- 45s rest"
+    },
+    {
+      "id": 101139518,
+      "date": "2026-04-11",
+      "name": "BUILD_BIKE2",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 58,
+      "duration_hours": 1.46,
+      "duration_formatted": "1h27m45s",
+      "workout_summary": null,
+      "description_preview": "- 30m Z1-Z2 Power\n- 15s Z6 Power cadence 50\n- 4m Z1 Power cadence 95"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 8,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 1
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 5.17,
