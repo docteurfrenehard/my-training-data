@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-31T12:06:27.438863",
+    "last_updated": "2026-03-31T15:55:08.180337",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -91,10 +91,10 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 47.0,
-        "delta_pct": null
+        "status": "green",
+        "value": 55.0,
+        "baseline_7d": 48.1,
+        "delta_pct": 14.3
       },
       "rhr": {
         "status": "unavailable",
@@ -105,7 +105,7 @@
       "sleep": {
         "status": "unavailable",
         "hours": null,
-        "quality": null
+        "quality": 3
       },
       "acwr": {
         "status": "green",
@@ -121,10 +121,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 3,
       "amber": 0,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 3
     },
     "phase_context": {
       "phase": "Base",
@@ -134,13 +134,13 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 2), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 3 green, 0 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-03-20",
-    "age_days": 10,
+    "age_days": 11,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -220,18 +220,18 @@
     "current_metrics": {
       "weight_kg": 95.0,
       "resting_hr": 50,
-      "hrv": null,
-      "sleep_quality": null,
+      "hrv": 55.0,
+      "sleep_quality": 3,
       "sleep_hours": null,
       "sleep_formatted": null,
-      "sleep_score": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "sleep_score": 80.0,
+      "fatigue": 1,
+      "soreness": 1,
+      "stress": 1,
+      "mood": 1,
+      "motivation": 4,
+      "injury": 1,
+      "hydration": 2,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
@@ -254,11 +254,11 @@
   },
   "derived_metrics": {
     "recovery_index": null,
-    "hrv_baseline_7d": 47.0,
+    "hrv_baseline_7d": 48.1,
     "rhr_baseline_7d": null,
-    "hrv_baseline_28d": 46.4,
+    "hrv_baseline_28d": 47.0,
     "rhr_baseline_28d": null,
-    "latest_hrv": null,
+    "latest_hrv": 55.0,
     "latest_rhr": null,
     "acwr": 1.05,
     "acwr_interpretation": "optimal",
@@ -441,9 +441,9 @@
     "p_max": 634,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-31T12:06:27.437559",
+    "calculation_timestamp": "2026-03-31T15:55:08.178996",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 0,
       "activities_7d": 9,
       "activities_28d": 28,
@@ -1079,22 +1079,22 @@
       "date": "2026-03-31",
       "weight_kg": null,
       "resting_hr": null,
-      "hrv_rmssd": null,
+      "hrv_rmssd": 55.0,
       "hrv_sdnn": null,
       "sleep_hours": null,
       "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_quality": 3,
+      "sleep_score": 80.0,
       "mental_energy": null,
-      "avg_sleeping_hr": null,
+      "avg_sleeping_hr": 56.0,
       "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 1,
+      "soreness": 1,
+      "stress": 1,
+      "mood": 1,
+      "motivation": 4,
+      "injury": 1,
+      "hydration": 2,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
@@ -1122,11 +1122,11 @@
       "name": "RECUP_RUN1",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 24,
+      "planned_tss": 18,
       "duration_hours": 0.5,
       "duration_formatted": "30m",
       "workout_summary": null,
-      "description": "- 30' z1 pace"
+      "description": "- 30' z1 hr"
     },
     {
       "id": 101144049,
@@ -1146,11 +1146,11 @@
       "name": "RECUP_RUN2",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 16,
+      "planned_tss": 12,
       "duration_hours": 0.33,
       "duration_formatted": "20m",
       "workout_summary": null,
-      "description": "- 20' z1 pace"
+      "description": "- 20' z1 hr"
     },
     {
       "id": 101144301,
@@ -1592,7 +1592,7 @@
     "total_training_formatted": "3h38m",
     "total_tss": 163,
     "activities_count": 9,
-    "avg_hrv": 47.0,
+    "avg_hrv": 48.1,
     "avg_resting_hr": null
   },
   "race_calendar": {
