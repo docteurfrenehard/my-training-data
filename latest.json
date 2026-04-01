@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 3.39,
       "total_training_formatted": "3h23m",
-      "total_activities": 8,
+      "total_activities": 9,
       "total_tss": 162
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-01T06:04:07.210656",
+    "last_updated": "2026-04-01T09:54:55.993728",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -117,7 +117,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -5.8
+        "value": -6.4
       }
     },
     "signal_summary": {
@@ -148,7 +148,7 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 3.39,
-    "total_activities": 8,
+    "total_activities": 9,
     "by_activity_type": {
       "Run": {
         "duration_decimal_hours": 1.19,
@@ -164,7 +164,7 @@
       },
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 4,
+        "count": 5,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -178,10 +178,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 17.85,
-      "atl": 23.68,
-      "tsb": -5.83,
-      "ramp_rate": 1.65,
+      "ctl": 17.99,
+      "atl": 24.37,
+      "tsb": -6.38,
+      "ramp_rate": 1.79,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -440,12 +440,12 @@
     "p_max": 634,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-01T06:04:07.209354",
+    "calculation_timestamp": "2026-04-01T09:54:55.992494",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 0,
-      "activities_7d": 8,
-      "activities_28d": 29,
+      "activities_7d": 9,
+      "activities_28d": 30,
       "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 0,
@@ -506,6 +506,41 @@
           "z7_time": 0
         }
       },
+      "has_intervals": false
+    },
+    {
+      "id": "17934098829",
+      "date": "2026-03-31T08:27:40",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null,
       "has_intervals": false
     },
     {
@@ -1554,7 +1589,7 @@
     "total_training_hours": 3.39,
     "total_training_formatted": "3h23m",
     "total_tss": 162,
-    "activities_count": 8,
+    "activities_count": 9,
     "avg_hrv": 48.2,
     "avg_resting_hr": null
   },
