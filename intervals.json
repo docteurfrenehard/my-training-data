@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-04-02T18:05:38.801375",
-  "version": "3.86",
+  "generated_at": "2026-04-02T18:51:25.024034",
+  "version": "3.95",
+  "script_hash": "97bf788ee1c8",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
