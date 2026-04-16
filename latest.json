@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 4.35,
       "total_training_formatted": "4h21m",
-      "total_activities": 11,
+      "total_activities": 12,
       "total_tss": 272
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-16T05:24:18.328348",
+    "last_updated": "2026-04-16T07:09:02.687723",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -153,7 +153,7 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 4.35,
-    "total_activities": 11,
+    "total_activities": 12,
     "by_activity_type": {
       "Run": {
         "duration_decimal_hours": 1.0,
@@ -169,7 +169,7 @@
       },
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 6,
+        "count": 7,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -183,10 +183,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 24.05,
-      "atl": 36.82,
-      "tsb": -12.77,
-      "ramp_rate": 4.86,
+      "ctl": 24.18,
+      "atl": 37.52,
+      "tsb": -13.34,
+      "ramp_rate": 5.0,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -579,7 +579,7 @@
       "reason_codes": [],
       "basis": {
         "stream_1": {
-          "ctl_slope": 1.8,
+          "ctl_slope": 1.83,
           "acwr_trend": "falling",
           "hard_day_pattern": 1.2,
           "weeks_available": 4
@@ -623,12 +623,12 @@
     "p_max": 632,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-16T05:24:18.326974",
+    "calculation_timestamp": "2026-04-16T07:09:02.686508",
     "data_quality": {
       "hrv_data_points": 4,
       "rhr_data_points": 0,
-      "activities_7d": 11,
-      "activities_28d": 42,
+      "activities_7d": 12,
+      "activities_28d": 43,
       "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 0,
@@ -691,6 +691,41 @@
       },
       "has_intervals": false,
       "description": "oskarbike"
+    },
+    {
+      "id": "18127629788",
+      "date": "2026-04-15T09:42:47",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null,
+      "has_intervals": false
     },
     {
       "id": "18114850375",
@@ -3093,7 +3128,7 @@
     "total_training_hours": 4.35,
     "total_training_formatted": "4h21m",
     "total_tss": 272,
-    "activities_count": 11,
+    "activities_count": 12,
     "avg_hrv": 43.8,
     "avg_resting_hr": null
   },
