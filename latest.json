@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-17T08:52:49.764762",
+    "last_updated": "2026-04-17T10:08:46.399334",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -612,13 +612,13 @@
     "p_max": 632,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-17T08:52:49.763457",
+    "calculation_timestamp": "2026-04-17T10:08:46.398059",
     "data_quality": {
       "hrv_data_points": 4,
       "rhr_data_points": 0,
       "activities_7d": 11,
       "activities_28d": 42,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2720,13 +2720,13 @@
     },
     {
       "id": 101145899,
-      "date": "2026-04-18",
+      "date": "2026-04-17",
       "name": "BUILD2_BIKE2",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 75,
-      "duration_hours": 1.26,
-      "duration_formatted": "1h15m30s",
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
       "workout_summary": null,
       "has_terrain": false,
       "description": "- 20m Z1-Z2 Power\n\n- 7m Z4 Power cadence 85\n- 90s Z1 Power cadence 95\n- 7m Z4 Power cadence 85\n- 90s Z1 Power cadence 95\n- 7m Z4 Power cadence 85\n- 90s Z1 Power cadence 95\n\n- 30m Z2 Power cadence 90"
