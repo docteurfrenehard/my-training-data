@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T15:34:30.008206",
+  "generated_at": "2026-04-25T16:22:02.849602",
   "version": "3.95",
   "script_hash": "97bf788ee1c8",
   "scan_hours": 72,
@@ -623,6 +623,34 @@
           "duration_secs": 7,
           "avg_hr": 110,
           "max_hr": 111,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i142874029",
+      "date": "2026-04-25",
+      "type": "VirtualRide",
+      "name": "RECUP_BIKE2",
+      "interval_summary": [
+        "1x 45m1s 112bpm",
+        "1x 1s 126bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2701s@112bpm",
+          "duration_secs": 2701,
+          "avg_hr": 112,
+          "max_hr": 126,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1s@126bpm",
+          "duration_secs": 1,
+          "avg_hr": 126,
+          "max_hr": 126,
           "zone": 1
         }
       ]
