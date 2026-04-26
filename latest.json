@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 2.33,
-      "total_training_formatted": "2h19m",
-      "total_activities": 6,
-      "total_tss": 90
+      "total_training_hours": 2.83,
+      "total_training_formatted": "2h50m",
+      "total_activities": 7,
+      "total_tss": 118
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-26T05:20:09.076719",
+    "last_updated": "2026-04-26T07:09:01.913494",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -78,10 +78,10 @@
   "alerts": [
     {
       "metric": "acwr",
-      "value": 0.49,
+      "value": 0.61,
       "severity": "alarm",
       "threshold": "0.75 / 1.35",
-      "context": "ACWR 0.49 outside safe range. Injury/overreach risk elevated.",
+      "context": "ACWR 0.61 outside safe range. Injury/overreach risk elevated.",
       "persistence_days": null,
       "tier": 2
     },
@@ -118,7 +118,7 @@
       },
       "acwr": {
         "status": "amber",
-        "value": 0.49
+        "value": 0.61
       },
       "ri": {
         "status": "unavailable",
@@ -126,7 +126,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 2.7
+        "value": -4.0
       }
     },
     "signal_summary": {
@@ -156,8 +156,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 2.33,
-    "total_activities": 6,
+    "total_duration_decimal_hours": 2.83,
+    "total_activities": 7,
     "by_activity_type": {
       "Run": {
         "duration_decimal_hours": 0.5,
@@ -166,10 +166,10 @@
         "distance_km": 4.1
       },
       "Swim": {
-        "duration_decimal_hours": 0.4,
-        "count": 1,
-        "tss": 36,
-        "distance_km": 1.3
+        "duration_decimal_hours": 0.9,
+        "count": 2,
+        "tss": 64,
+        "distance_km": 2.7
       },
       "Unknown": {
         "duration_decimal_hours": 0.0,
@@ -187,11 +187,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 23.62,
-      "atl": 20.92,
-      "tsb": 2.7,
-      "ramp_rate": -1.64,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 25.05,
+      "atl": 29.04,
+      "tsb": -3.99,
+      "ramp_rate": -0.2,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 250.2,
@@ -269,26 +269,26 @@
     "rhr_baseline_28d": null,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 0.49,
+    "acwr": 0.61,
     "acwr_interpretation": "undertraining",
-    "monotony": 0.94,
+    "monotony": 1.26,
     "monotony_interpretation": "normal",
     "primary_sport": "swim",
     "primary_sport_monotony": null,
-    "primary_sport_tss_7d": 36.0,
-    "effective_monotony": 0.94,
+    "primary_sport_tss_7d": 64.0,
+    "effective_monotony": 1.26,
     "multi_sport_detected": true,
-    "strain": 85.0,
-    "stress_tolerance": 0.9,
+    "strain": 149.0,
+    "stress_tolerance": 1.2,
     "load_recovery_ratio": null,
-    "tss_7d_total": 90.0,
-    "tss_28d_total": 742.0,
+    "tss_7d_total": 118.0,
+    "tss_28d_total": 770.0,
     "zone_distribution_7d": {
-      "z1_hours": 2.3,
-      "z2_hours": 0.0,
+      "z1_hours": 2.8,
+      "z2_hours": 0.01,
       "z3_hours": 0.0,
       "z4_plus_hours": 0.0,
-      "total_hours": 2.31,
+      "total_hours": 2.81,
       "zone_basis": "mixed"
     },
     "grey_zone_percentage": 0.0,
@@ -300,7 +300,7 @@
     "hard_days_this_week": 0,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 8297,
+      "z1_seconds": 10098,
       "z2_seconds": 3,
       "z3_seconds": 0,
       "z1_pct": 100.0,
@@ -311,11 +311,11 @@
       "zone_basis": "mixed"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 1384,
+      "z1_seconds": 3185,
       "z2_seconds": 3,
       "z3_seconds": 0,
-      "z1_pct": 99.8,
-      "z2_pct": 0.2,
+      "z1_pct": 99.9,
+      "z2_pct": 0.1,
       "z3_pct": 0.0,
       "polarization_index": null,
       "classification": "Base",
@@ -323,24 +323,24 @@
       "sport": "swim"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 41844,
+      "z1_seconds": 43645,
       "z2_seconds": 1169,
       "z3_seconds": 5819,
-      "z1_pct": 85.7,
-      "z2_pct": 2.4,
-      "z3_pct": 11.9,
+      "z1_pct": 86.2,
+      "z2_pct": 2.3,
+      "z3_pct": 11.5,
       "polarization_index": 2.63,
       "classification": "Polarized",
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 7666,
+      "z1_seconds": 9467,
       "z2_seconds": 996,
       "z3_seconds": 1700,
-      "z1_pct": 74.0,
-      "z2_pct": 9.6,
-      "z3_pct": 16.4,
-      "polarization_index": 2.1,
+      "z1_pct": 77.8,
+      "z2_pct": 8.2,
+      "z3_pct": 14.0,
+      "polarization_index": 2.12,
       "classification": "Polarized",
       "zone_basis": "hr",
       "sport": "swim"
@@ -582,16 +582,16 @@
       "reason_codes": [],
       "basis": {
         "stream_1": {
-          "ctl_slope": 2.6,
+          "ctl_slope": 3.35,
           "acwr_trend": "rising",
           "hard_day_pattern": 1.2,
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.87,
+          "planned_tss_delta": 1.63,
           "hard_sessions_planned": 0,
           "race_proximity": null,
-          "next_week_load": 1.23,
+          "next_week_load": 1.07,
           "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 1.4
         },
@@ -626,12 +626,12 @@
     "p_max": 630,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-26T05:20:09.075542",
+    "calculation_timestamp": "2026-04-26T07:09:01.484989",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
-      "activities_7d": 6,
-      "activities_28d": 37,
+      "activities_7d": 7,
+      "activities_28d": 38,
       "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 0,
@@ -640,6 +640,51 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i142985471",
+      "date": "2026-04-26T07:11:06",
+      "type": "Swim",
+      "name": "Morning Natation",
+      "duration_hours": 0.5,
+      "distance_km": 1.4,
+      "tss": 28,
+      "intensity_factor": 72.7798,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 116,
+      "max_hr": 134,
+      "avg_cadence": 39.715927,
+      "avg_speed": 2.8,
+      "max_speed": 3.1,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 322,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": 2,
+      "rpe": 2,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 1780,
+          "z2_time": 21,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": true
+    },
     {
       "id": "i142874029",
       "date": "2026-04-25T16:11:07",
@@ -2819,10 +2864,10 @@
     "bail_no_match": 18
   },
   "weekly_summary": {
-    "total_training_hours": 2.33,
-    "total_training_formatted": "2h19m",
-    "total_tss": 90,
-    "activities_count": 6,
+    "total_training_hours": 2.83,
+    "total_training_formatted": "2h50m",
+    "total_tss": 118,
+    "activities_count": 7,
     "avg_hrv": null,
     "avg_resting_hr": null
   },
