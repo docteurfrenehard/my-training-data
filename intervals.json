@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T09:31:16.863360",
+  "generated_at": "2026-04-29T11:18:50.238030",
   "version": "3.95",
   "script_hash": "97bf788ee1c8",
   "scan_hours": 72,
@@ -373,6 +373,34 @@
           "zone": 2,
           "training_load": 5.027285,
           "decoupling": 26.726494
+        }
+      ]
+    },
+    {
+      "activity_id": "i143984952",
+      "date": "2026-04-29",
+      "type": "VirtualRide",
+      "name": "BUILD3_BICYLE1",
+      "interval_summary": [
+        "1x 45m1s 132bpm",
+        "1x 3s 137bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2701s@132bpm",
+          "duration_secs": 2701,
+          "avg_hr": 132,
+          "max_hr": 147,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "3s@137bpm",
+          "duration_secs": 3,
+          "avg_hr": 137,
+          "max_hr": 138,
+          "zone": 1
         }
       ]
     }
