@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-15T13:17:08.516995",
+    "last_updated": "2026-05-15T15:34:49.137980",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -607,13 +607,13 @@
     "p_max": 625,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-15T13:17:08.515780",
+    "calculation_timestamp": "2026-05-15T15:34:49.136654",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
       "activities_7d": 9,
       "activities_28d": 26,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 8,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2065,7 +2065,7 @@
     },
     {
       "id": 101147540,
-      "date": "2026-05-16",
+      "date": "2026-05-15",
       "name": "RECUP_BIKE2",
       "type": "WORKOUT",
       "sport_type": "Ride",
