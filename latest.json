@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-08T15:58:00.530014",
+    "last_updated": "2026-07-08T17:36:35.054193",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -577,10 +577,10 @@
         },
         "stream_2": {
           "planned_tss_delta": 7.49,
-          "hard_sessions_planned": 3,
+          "hard_sessions_planned": 4,
           "race_proximity": 39,
           "next_week_load": 8.48,
-          "plan_coverage_current_week": 0.6,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 0.8
         },
         "data_quality": "good",
@@ -614,7 +614,7 @@
     "p_max": 592,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-08T15:58:00.528837",
+    "calculation_timestamp": "2026-07-08T17:36:35.053004",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -1410,22 +1410,8 @@
   ],
   "planned_workouts": [
     {
-      "id": 120714255,
-      "date": "2026-07-09",
-      "name": "IntervalCoach - Seuil R\u00e9p\u00e9t\u00e9",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 61,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Salut Alphabete ! Course seuil \u00e0 venir. 3m 63-67% pace\n- 5m 75-79% pace\n\nMain Set\n- Endurance 3m 76-80% pace\n- Threshold 1 10m 95-99% pace\n- Jog Recovery 3m 65-77% pace\n- Threshold 2 8m 96-100% pace\n- Jog Recovery 3m 65-77% pace\n- Threshold 3 6m 97-101% pace\n- Endurance 4m 76-80% pace\n\nCooldown\n- 3m 76-80% pace\n- Super effort, Alphabete. Allez, on trotte. 2m 63-67% pace\n\n[Weekly Plan - Peak]"
-    },
-    {
       "id": 120714260,
-      "date": "2026-07-10",
+      "date": "2026-07-09",
       "name": "IntervalCoach - Sprints VO2max",
       "type": "WORKOUT",
       "sport_type": "Swim",
@@ -1434,12 +1420,11 @@
       "duration_formatted": "35m33s",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "09:00",
       "description": "Warmup\n- Salut Alphab\u00e8te ! Pr\u00eat pour des 50s VO2max ? 6m 76% pace\n\nMain Set\n- Sprint 1 50mtr 106% pace\n- Rest 1m\n- Sprint 2 50mtr 106% pace\n- Rest 1m\n- Sprint 3 50mtr 107% pace\n- Rest 1m\n- Sprint 4 50mtr 107% pace\n- Rest 1m\n- Sprint 5 50mtr 107% pace\n- Rest 1m\n- Sprint 6 50mtr 108% pace\n- Rest 1m\n- Sprint 7 50mtr 108% pace\n- Rest 1m\n- Sprint 8 50mtr 108% pace\n- Rest 1m\n- Endurance 300mtr 83% pace\n- Endurance 350mtr 65% pace\n\nCooldown\n- Excellent travail, Alphab\u00e8te ! D\u00e9tente dans l'eau. 4m 72% pace\n\n[Weekly Plan - Peak]"
     },
     {
       "id": 120714274,
-      "date": "2026-07-11",
+      "date": "2026-07-10",
       "name": "IntervalCoach - Seuil Doux",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -1448,8 +1433,34 @@
       "duration_formatted": "1h15m",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "09:00",
       "description": "Warmup\n- Salut Alphabete ! Pr\u00eat pour le Sweet Spot ? 8m ramp 45-75% 85rpm\n- Primer 1 1m 91% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 91% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n- Endurance 2m 65-75% 85rpm\n- Sweet Spot 1 12m 88-92% 90rpm\n- Recovery 3m 55%\n- Sweet Spot 2 11m 89% 90rpm\n- Recovery 3m 55%\n- Sweet Spot 3 10m 90% 90rpm\n- Recovery 3m 55%\n- Sweet Spot 4 9m 90-94% 90rpm\n- Endurance 3m 65-75% 85rpm\n\nCooldown\n- Super travail, Alphabete ! Profite de la r\u00e9cup\u00e9ration. 8m ramp 65-45%\n\n[Weekly Plan - Peak]"
+    },
+    {
+      "id": 121395588,
+      "date": "2026-07-10",
+      "name": "IntervalCoach - VO2max R\u00e9p\u00e9titions",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 39,
+      "duration_hours": 0.69,
+      "duration_formatted": "41m21s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Salut Alphabete ! Pr\u00eat pour le VO2max. 6m 76% pace\n\nMain Set\n- Hard 1 100mtr 106% pace\n- Rest 1m\n- Hard 2 100mtr 106% pace\n- Rest 1m\n- Hard 3 100mtr 107% pace\n- Rest 1m\n- Hard 4 100mtr 107% pace\n- Rest 1m\n- Hard 5 100mtr 108% pace\n- Rest 1m\n- Hard 6 100mtr 108% pace\n- Rest 1m\n- Hard 7 100mtr 108% pace\n- Rest 1m\n- Hard 8 100mtr 109% pace\n- Rest 1m\n- Hard 9 100mtr 109% pace\n- Rest 1m\n- Hard 10 100mtr 109% pace\n- Rest 1m\n- Endurance 175mtr 65% pace\n\nCooldown\n- Bien jou\u00e9 Alphabete, nage tranquille maintenant. 4m 72% pace\n\n[Weekly Plan - Peak]"
+    },
+    {
+      "id": 120714255,
+      "date": "2026-07-11",
+      "name": "IntervalCoach - Seuil R\u00e9p\u00e9t\u00e9",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 61,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Warmup\n- Salut Alphabete ! Course seuil \u00e0 venir. 3m 63-67% pace\n- 5m 75-79% pace\n\nMain Set\n- Endurance 3m 76-80% pace\n- Threshold 1 10m 95-99% pace\n- Jog Recovery 3m 65-77% pace\n- Threshold 2 8m 96-100% pace\n- Jog Recovery 3m 65-77% pace\n- Threshold 3 6m 97-101% pace\n- Endurance 4m 76-80% pace\n\nCooldown\n- 3m 76-80% pace\n- Super effort, Alphabete. Allez, on trotte. 2m 63-67% pace\n\n[Weekly Plan - Peak]"
     },
     {
       "id": 120714283,
@@ -1619,6 +1630,34 @@
       "description_preview": "Warmup\n- Salut Alphabete ! R\u00e9cup\u00e9ration active aujourd'hui. 6m ramp 45-55% 85rpm\nMain Set"
     },
     {
+      "id": 121395610,
+      "date": "2026-08-04",
+      "name": "IntervalCoach - R\u00e9cup\u00e9ration Active",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 12,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Salut Alphabete, pr\u00eat pour une sortie de r\u00e9cup\u00e9ration? 5m ramp 45-55% 85rpm\nMain Set"
+    },
+    {
+      "id": 121395651,
+      "date": "2026-08-05",
+      "name": "IntervalCoach - R\u00e9cup\u00e9ration Active",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 22,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Salut Alphabete ! Course de r\u00e9cup\u00e9ration aujourd'hui. 5m 64-68% pace\nMain Set"
+    },
+    {
       "id": 120710830,
       "date": "2026-08-16",
       "name": "Triathlon",
@@ -1633,12 +1672,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 15,
+    "attempted": 18,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 13
+    "bail_no_match": 16
   },
   "weekly_summary": {
     "total_training_hours": 1.0,
