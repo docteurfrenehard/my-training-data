@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-09T20:48:56.583876",
+    "last_updated": "2026-07-09T22:15:43.351972",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -168,10 +168,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 11.91,
-      "atl": 14.78,
-      "tsb": -2.87,
-      "ramp_rate": 0.85,
+      "ctl": 13.42,
+      "atl": 23.3,
+      "tsb": -9.88,
+      "ramp_rate": 2.35,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -540,13 +540,14 @@
         }
       }
     },
-    "consistency_index": 1.0,
+    "consistency_index": 0.5,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 2,
       "completed_days": 1,
       "matched_days": 1,
       "planned_dates": [
-        "2026-07-07"
+        "2026-07-07",
+        "2026-07-09"
       ],
       "completed_dates": [
         "2026-07-07"
@@ -564,11 +565,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.62,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": null,
+          "hard_sessions_planned": 1,
           "race_proximity": 38,
           "next_week_load": 1.56,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
@@ -602,13 +603,13 @@
     "p_max": 592,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-09T20:48:56.582683",
+    "calculation_timestamp": "2026-07-09T22:15:43.350739",
     "data_quality": {
       "hrv_data_points": 1,
       "rhr_data_points": 0,
       "activities_7d": 4,
       "activities_28d": 13,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -1409,32 +1410,18 @@
   ],
   "planned_workouts": [
     {
-      "id": 121471154,
-      "date": "2026-07-10",
-      "name": "IntervalCoach - Threshold + Surges",
+      "id": 121581332,
+      "date": "2026-07-09",
+      "name": "IntervalCoach - Seuil Fartlek",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 63,
-      "duration_hours": 0.84,
-      "duration_formatted": "50m15s",
+      "planned_tss": 64,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Salut Alphabete! S\u00e9ance seuil avec sprints. 3m 63-67% pace\n- 5m 75-79% pace\n\nMain Set\n- Endurance 2m 76-80% pace\n- Threshold 1 8m 95-100% pace\n- Surge 1 45s 101-115% pace\n- Jog Recovery 3m 65-77% pace\n- Threshold 2 8m 95-100% pace\n- Surge 2 45s 101-115% pace\n- Jog Recovery 3m 65-77% pace\n- Threshold 3 8m 95-100% pace\n- Surge 3 45s 101-115% pace\n- Endurance 3m 76-80% pace\n\nCooldown\n- 3m 76-80% pace\n- Super sortie, r\u00e9cup\u00e8re tranquillement. 2m 63-67% pace\n\n[Weekly Plan - Peak]"
-    },
-    {
-      "id": 121581031,
-      "date": "2026-07-10",
-      "name": "IntervalCoach - VO2max Intervalles",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 27,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m13s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Salut Alphabete ! Pr\u00e9pare-toi pour le VO2max. 6m 76% pace\n\nMain Set\n- VO2max 120s 125mtr 110% pace\n- Rest 30s\n- VO2max 234s 250mtr 110% pace\n- Rest 30s\n- Endurance 850mtr 65% pace\n\nCooldown\n- Super nage, Alphabete ! D\u00e9tends-toi maintenant. 4m 72% pace\n\n[Weekly Plan - Peak]"
+      "description": "Warmup\n- Bonjour Alphabete ! Fartlek seuil, c'est parti ! 3m 63-67% pace\n- 3m 74-78% pace\n- 2m 85-89% pace\n\nMain Set\n- Float 1 3m 86-90% pace\n- Fartlek Surge 1 2m 95-101% pace\n- Float 2 3m 86-90% pace\n- Fartlek Surge 2 3m 95-101% pace\n- Float 3 3m 86-90% pace\n- Fartlek Surge 3 4m 95-101% pace\n- Float 4 3m 86-90% pace\n- Fartlek Surge 4 3m 95-101% pace\n- Float 5 3m 86-90% pace\n- Fartlek Surge 5 2m 95-101% pace\n- Float 6 3m 86-90% pace\n- Fartlek Surge 6 2m 95-101% pace\n- Float 7 3m 86-90% pace\n\nCooldown\n- 3m 76-80% pace\n- Belle course, ralentis doucement ! 2m 63-67% pace\n\n[Weekly Plan - Peak]"
     },
     {
       "id": 121471171,
@@ -1632,9 +1619,9 @@
       "description_preview": "Warmup\n- Salut Alphabete ! D\u00e9tente active au programme. 5m ramp 45-55% 85rpm\nMain Set"
     },
     {
-      "id": 121581037,
+      "id": 121581887,
       "date": "2026-08-05",
-      "name": "IntervalCoach - R\u00e9cup\u00e9ration Active",
+      "name": "IntervalCoach - Course Facile",
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": 22,
@@ -1643,12 +1630,12 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description_preview": "Warmup\n- Salut Alphabete ! Course de r\u00e9cup\u00e9ration aujourd'hui. 5m 64-68% pace\nMain Set"
+      "description_preview": "Warmup\n- Salut Alphabete ! Course facile \u00e0 venir. 5m 64-68% pace\nMain Set"
     },
     {
       "id": 120710830,
       "date": "2026-08-16",
-      "name": "Triathlon S",
+      "name": "Triathlon Sprint",
       "type": "RACE_A",
       "sport_type": "Ride",
       "planned_tss": null,
@@ -1661,12 +1648,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 17,
+    "attempted": 16,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 15
+    "bail_no_match": 14
   },
   "weekly_summary": {
     "total_training_hours": 1.47,
@@ -1678,25 +1665,25 @@
   },
   "race_calendar": {
     "next_race": {
-      "name": "Triathlon S",
+      "name": "Triathlon Sprint",
       "date": "2026-08-16",
       "category": "RACE_A",
       "type": "Ride",
       "days_until": 38,
       "moving_time_seconds": 4800,
-      "distance_meters": 32500.0,
+      "distance_meters": 26200.0,
       "has_terrain": false,
       "start_time": "09:00"
     },
     "all_races": [
       {
-        "name": "Triathlon S",
+        "name": "Triathlon Sprint",
         "date": "2026-08-16",
         "category": "RACE_A",
         "type": "Ride",
         "days_until": 38,
         "moving_time_seconds": 4800,
-        "distance_meters": 32500.0,
+        "distance_meters": 26200.0,
         "has_terrain": false,
         "start_time": "09:00"
       }
