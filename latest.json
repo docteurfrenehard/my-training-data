@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-11T01:58:34.679925",
+    "last_updated": "2026-07-11T05:15:14.479380",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -168,10 +168,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 12.0,
-      "atl": 14.21,
-      "tsb": -2.21,
-      "ramp_rate": 1.44,
+      "ctl": 11.54,
+      "atl": 11.91,
+      "tsb": -0.37,
+      "ramp_rate": 0.99,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -578,7 +578,7 @@
     "p_max": 592,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-11T01:58:34.678719",
+    "calculation_timestamp": "2026-07-11T05:15:14.478227",
     "data_quality": {
       "hrv_data_points": 1,
       "rhr_data_points": 0,
@@ -1385,20 +1385,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 121692818,
-      "date": "2026-07-11",
-      "name": "IntervalCoach - Seuil Doux",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 82,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h15m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Bonjour Alphabete ! Place au Sweet Spot 8m ramp 45-75% 85rpm\n- Primer 1 1m 91% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 91% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n- Endurance 2m 65-75% 85rpm\n- Sweet Spot 1 12m 88-92% 90rpm\n- Recovery 3m 55%\n- Sweet Spot 2 11m 89% 90rpm\n- Recovery 3m 55%\n- Sweet Spot 3 10m 90% 90rpm\n- Recovery 3m 55%\n- Sweet Spot 4 9m 90-94% 90rpm\n- Endurance 3m 65-75% 85rpm\n\nCooldown\n- Super boulot, savoure la r\u00e9cup\u00e9ration 8m ramp 65-45%\n\n[Weekly Plan - Peak]"
-    },
-    {
       "id": 121692819,
       "date": "2026-07-11",
       "name": "IntervalCoach - Course Tempo",
@@ -1411,6 +1397,20 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Salut Alphabete ! Course tempo aujourd'hui. 5m ramp 65-87% pace\n\nMain Set\n- Tempo 22m 88-94% pace\n\nCooldown\n- Belle course, Alphabete. \u00c9tirements doux maintenant. 3m ramp 78-65% pace\n\n[Weekly Plan - Peak]"
+    },
+    {
+      "id": 121996626,
+      "date": "2026-07-11",
+      "name": "IntervalCoach - R\u00e9cup\u00e9ration Facile",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 29,
+      "duration_hours": 1.15,
+      "duration_formatted": "1h9m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Salut Alphabete ! Un tour de r\u00e9cup\u00e9ration t'attend. 10m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 26m 45-50% 85rpm intensity=recovery\n- Loosen Up 26m 50-55% 90rpm intensity=recovery\n\nCooldown\n- Bien jou\u00e9, Alphabete ! Profite de la descente. 7m ramp 55-45%"
     },
     {
       "id": 121692822,
@@ -1593,18 +1593,18 @@
       "description_preview": "Warmup\n- Salut Alphabete ! S\u00e9ance de r\u00e9cup\u00e9ration active. 5m ramp 45-55% 85rpm\nMain Set"
     },
     {
-      "id": 121692845,
+      "id": 121996634,
       "date": "2026-08-05",
-      "name": "IntervalCoach - Endurance Douce",
+      "name": "IntervalCoach - Course Facile",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 25,
-      "duration_hours": 0.57,
-      "duration_formatted": "34m",
+      "planned_tss": 23,
+      "duration_hours": 0.53,
+      "duration_formatted": "32m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description_preview": "Warmup\n- Bonjour Alphabete, \u00e9chauffement avant votre course. 5m 64-68% pace\nMain Set"
+      "description_preview": "Warmup\n- Salut Alphabete! Course de r\u00e9cup\u00e9ration facile. 5m 64-68% pace\nMain Set"
     },
     {
       "id": 121687405,
@@ -1619,6 +1619,20 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description_preview": "Warmup\n- Salut Alphabete ! S\u00e9ance de r\u00e9cup\u00e9ration \u00e0 venir. 5m 76% pace\nMain Set"
+    },
+    {
+      "id": 121996635,
+      "date": "2026-08-08",
+      "name": "IntervalCoach - R\u00e9cup\u00e9ration Active",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 17,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Salut Alphabete ! R\u00e9cup\u00e9ration active aujourd'hui. 6m ramp 45-55% 85rpm\nMain Set"
     },
     {
       "id": 120710830,
@@ -1636,12 +1650,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 17,
+    "attempted": 18,
     "success": 3,
     "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 14
+    "bail_no_match": 15
   },
   "weekly_summary": {
     "total_training_hours": 1.47,
