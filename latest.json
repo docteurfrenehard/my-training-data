@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-12T18:34:57.322534",
+    "last_updated": "2026-07-12T19:48:06.869017",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -551,7 +551,7 @@
           "race_proximity": 35,
           "next_week_load": null,
           "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 1.2
+          "plan_coverage_next_week": 1.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -584,7 +584,7 @@
     "p_max": 594,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-12T18:34:57.321283",
+    "calculation_timestamp": "2026-07-12T19:48:06.867808",
     "data_quality": {
       "hrv_data_points": 1,
       "rhr_data_points": 0,
@@ -1535,18 +1535,18 @@
   ],
   "planned_workouts": [
     {
-      "id": 122012120,
+      "id": 122342745,
       "date": "2026-07-13",
-      "name": "IntervalCoach - Sprints Neuromusculaires",
+      "name": "IntervalCoach - A\u00e9robie Progressive",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 48,
+      "planned_tss": 45,
       "duration_hours": 1.0,
-      "duration_formatted": "59m50s",
-      "workout_summary": "9m @152W | 5\u00d78m @178W / 10s rec | 4m @166W | 6m @140W",
+      "duration_formatted": "1h",
+      "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Salut Alphabete! Endurance et sprints au programme. 9m ramp 45-75% 85rpm\n\nMain Set\n5x\n- Endurance 8m 65-75% 88rpm\n- Sprint 10s 150% 110rpm\n\nRecovery\n- Endurance 4m 60-70%\n\nCooldown\n- Super s\u00e9ance, profite de la r\u00e9cup\u00e9ration. 6m ramp 65-45%\n\n[Weekly Plan - Peak]"
+      "description": "Warmup\n- Salut Alphabete ! Pr\u00e9paration pour l'a\u00e9robie progressive. 9m ramp 45-75% 85rpm\n\nMain Set\n- Low 15m 65% 85rpm\n- Mid 15m 69% 88rpm\n- Upper 15m 73% 90rpm\n\nCooldown\n- Bravo Alphabete, belle s\u00e9ance a\u00e9robie ! 6m ramp 65-45%\n\n[Weekly Plan - Peak]"
     },
     {
       "id": 121692822,
@@ -1563,6 +1563,20 @@
       "description": "Warmup\n- Salut Alphabete ! Endurance et sprints au programme. 9m ramp 45-75% 85rpm\n\nMain Set\n5x\n- Endurance 8m 65-75% 88rpm\n- Sprint 10s 150% 110rpm\n\nRecovery\n- Endurance 4m 60-70%\n\nCooldown\n- Super travail, Alphabete ! Profite de la r\u00e9cup\u00e9ration. 6m ramp 65-45%\n\n[Weekly Plan - Peak]"
     },
     {
+      "id": 122342116,
+      "date": "2026-07-14",
+      "name": "IntervalCoach - CAP : Intervalles 5km cible",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 42,
+      "duration_hours": 1.02,
+      "duration_formatted": "1h1m",
+      "workout_summary": "15m | 6\u00d74m / 2m rec | 10m",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- 15m 48-52% pace\n\nMain Set\n6x\n- Intervalle cible 4m 93-97% pace\n- R\u00e9cup\u00e9ration trottinage 2m 38-42% pace\n\nCooldown\n- 10m 38-42% pace"
+    },
+    {
       "id": 122011502,
       "date": "2026-07-15",
       "name": "IntervalCoach - A\u00e9robie Progressive",
@@ -1575,6 +1589,20 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Salut Alphab\u00e8te ! Course progressive \u00e0 venir. 3m 63-67% pace\n- 5m 75-79% pace\n\nMain Set\n- Low Aerobic 12m 76-80% pace\n- Mid Aerobic 12m 78-87% pace\n- Upper Aerobic 13m 86-90% pace\n\nCooldown\n- 3m 76-80% pace\n- Super effort, termine en douceur. 2m 63-67% pace\n\n[Weekly Plan - Peak]"
+    },
+    {
+      "id": 122342139,
+      "date": "2026-07-15",
+      "name": "IntervalCoach - V\u00e9lo : Intervalles Ana\u00e9robie",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 72,
+      "duration_hours": 1.12,
+      "duration_formatted": "1h7m",
+      "workout_summary": "20m @127W | 8\u00d72m @293W / 2m rec | 15m @102W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- 20m 50%\n\nMain Set\n8x\n- Intervalle 2min Ana\u00e9robie 2m 115%\n- R\u00e9cup\u00e9ration 2m 50%\n\nCooldown\n- 15m 40%"
     },
     {
       "id": 122189736,
@@ -1605,18 +1633,18 @@
       "description": "Warmup\n- Salut Alphabete ! Endurance et spin-ups \u00e0 venir. 9m ramp 45-75% 85rpm\n\nMain Set\n4x\n- Endurance 8m 65-75% 88rpm\n- Spin-Up 1m 75% 110rpm\n\nRecovery\n- Endurance 5 9m 65-75% 88rpm\n\nCooldown\n- Super travail, Alphabete ! Profite de la r\u00e9cup\u00e9ration. 6m ramp 65-45%\n\n[Weekly Plan - Peak]"
     },
     {
-      "id": 122189768,
-      "date": "2026-07-18",
-      "name": "IntervalCoach - Sweet Spot Bloc",
+      "id": 122342140,
+      "date": "2026-07-17",
+      "name": "IntervalCoach - CAP : Fondamentale & Tempo",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 82,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h15m",
+      "sport_type": "Run",
+      "planned_tss": 34,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Salut Alphabete ! Journ\u00e9e Sweet Spot 8m ramp 45-75% 85rpm\n- Primer 1 1m 91% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 91% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n- Endurance 2m 65-75% 85rpm\n- Sweet Spot 1 12m 88-92% 90rpm\n- Recovery 3m 55%\n- Sweet Spot 2 11m 89% 90rpm\n- Recovery 3m 55%\n- Sweet Spot 3 10m 90% 90rpm\n- Recovery 3m 55%\n- Sweet Spot 4 9m 90-94% 90rpm\n- Endurance 3m 65-75% 85rpm\n\nCooldown\n- Super travail, profite de la r\u00e9cup\u00e9ration 8m ramp 65-45%\n\n[Weekly Plan - Peak]"
+      "description": "Main Set\n- Endurance fondamentale 20m 58-62% pace\n- Tempo (allure semi) 3m 83-87% pace\n- R\u00e9cup\u00e9ration jog 2m 48-52% pace\n- Tempo (allure semi) 3m 83-87% pace\n- R\u00e9cup\u00e9ration jog 2m 48-52% pace\n- Tempo (allure semi) 3m 83-87% pace\n\nCooldown\n- 17m 58-62% pace"
     },
     {
       "id": 122189794,
@@ -1814,12 +1842,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 19,
-    "success": 5,
-    "patternA": 5,
+    "attempted": 21,
+    "success": 6,
+    "patternA": 6,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 14
+    "bail_no_match": 15
   },
   "weekly_summary": {
     "total_training_hours": 1.97,
