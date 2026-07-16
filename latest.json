@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-16T00:09:40.285723",
+    "last_updated": "2026-07-16T03:33:56.172106",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -123,10 +123,10 @@
       "unavailable": 4
     },
     "phase_context": {
-      "phase": "Build",
-      "phase_week": 1,
-      "amber_threshold": 3,
-      "modifier_applied": "build_loosened"
+      "phase": "Base",
+      "phase_week": 3,
+      "amber_threshold": 2,
+      "modifier_applied": "default"
     },
     "race_week_defers": false,
     "modification": null,
@@ -162,17 +162,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 15.5,
-      "atl": 26.24,
-      "tsb": -10.74,
-      "ramp_rate": 4.41,
+      "ctl": 14.56,
+      "atl": 26.17,
+      "tsb": -11.61,
+      "ramp_rate": 4.58,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 235.8,
-      "w_prime": 20004,
-      "w_prime_kj": 20.0,
-      "p_max": 594,
+      "eftp": 237.5,
+      "w_prime": 20145,
+      "w_prime_kj": 20.1,
+      "p_max": 593,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -435,9 +435,9 @@
               "source": "observed_outdoor",
               "coggan_watts": 247,
               "coggan_wpkg": 2.47,
-              "cp_model_watts": 288,
-              "cp_model_wpkg": 2.88,
-              "model_divergence_pct": -35.8
+              "cp_model_watts": 289,
+              "cp_model_wpkg": 2.89,
+              "model_divergence_pct": -36.0
             },
             "1200s": {
               "actual_watts": 183,
@@ -502,7 +502,7 @@
           },
           "coverage_ratio": 0.71,
           "ftp_used": 255,
-          "w_prime_used": 20004,
+          "w_prime_used": 20145,
           "ftp_staleness_days": 118,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -526,14 +526,12 @@
       ]
     },
     "phase_detection": {
-      "phase": "Build",
+      "phase": "Base",
       "confidence": "medium",
-      "reason_codes": [
-        "PHASE_TRANSITION_Base_TO_Build"
-      ],
+      "reason_codes": [],
       "basis": {
         "stream_1": {
-          "ctl_slope": 1.1,
+          "ctl_slope": 0.88,
           "acwr_trend": "rising",
           "hard_day_pattern": 0.8,
           "weeks_available": 4
@@ -550,14 +548,12 @@
         "stream_agreement": null
       },
       "previous_phase": "Base",
-      "phase_duration_weeks": 1,
+      "phase_duration_weeks": 3,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Build",
-    "phase_triggers": [
-      "PHASE_TRANSITION_Base_TO_Build"
-    ],
+    "phase_detected": "Base",
+    "phase_triggers": [],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
       "current_ftp": 255,
@@ -573,13 +569,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 235.8,
-    "w_prime": 20004,
-    "w_prime_kj": 20.0,
-    "p_max": 594,
+    "eftp": 237.5,
+    "w_prime": 20145,
+    "w_prime_kj": 20.1,
+    "p_max": 593,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-16T00:09:40.284498",
+    "calculation_timestamp": "2026-07-16T03:33:56.170867",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
