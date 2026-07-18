@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-18T16:10:24.656398",
+    "last_updated": "2026-07-18T17:12:32.075702",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -543,7 +543,7 @@
           "hard_sessions_planned": 1,
           "race_proximity": 29,
           "next_week_load": 4.57,
-          "plan_coverage_current_week": 0.2,
+          "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
@@ -577,13 +577,13 @@
     "p_max": 593,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-18T16:10:24.655235",
+    "calculation_timestamp": "2026-07-18T17:12:32.074511",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
       "activities_7d": 5,
       "activities_28d": 10,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -1408,6 +1408,19 @@
   ],
   "planned_workouts": [
     {
+      "id": 123644008,
+      "date": "2026-07-18",
+      "name": "Repos pour fatigue accumul\u00e9e",
+      "type": "SICK",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": ""
+    },
+    {
       "id": 123575402,
       "date": "2026-07-18",
       "name": "IntervalCoach - R\u00e9cup\u00e9ration Active",
@@ -1645,7 +1658,7 @@
       "description_preview": "Warmup\n- Salut Alphabete! Une sortie r\u00e9cup\u00e9ration aujourd'hui. 5m ramp 45-55% 85rpm\nMain Set"
     },
     {
-      "id": 123575424,
+      "id": 123644033,
       "date": "2026-08-14",
       "name": "IntervalCoach - R\u00e9cup\u00e9ration Active",
       "type": "WORKOUT",
@@ -1656,7 +1669,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description_preview": "Warmup\n- Salut Alphabete ! Jour de r\u00e9cup\u00e9ration en selle. 5m ramp 45-55% 85rpm\nMain Set"
+      "description_preview": "Warmup\n- Bonjour Alphabete ! Pr\u00e9pare-toi pour la r\u00e9cup\u00e9ration. 5m ramp 45-55% 85rpm\nMain Set"
     },
     {
       "id": 123023247,
