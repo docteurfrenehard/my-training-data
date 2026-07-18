@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-18T03:49:38.362664",
+    "last_updated": "2026-07-18T05:58:34.700914",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -539,7 +539,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 3.03,
+          "planned_tss_delta": 1.06,
           "hard_sessions_planned": 1,
           "race_proximity": 29,
           "next_week_load": 4.57,
@@ -577,7 +577,7 @@
     "p_max": 593,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-18T03:49:38.361467",
+    "calculation_timestamp": "2026-07-18T05:58:34.699496",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -1408,18 +1408,18 @@
   ],
   "planned_workouts": [
     {
-      "id": 123172915,
+      "id": 123575402,
       "date": "2026-07-18",
-      "name": "IntervalCoach - Seuil Course",
+      "name": "IntervalCoach - R\u00e9cup\u00e9ration Active",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 60,
-      "duration_hours": 0.87,
-      "duration_formatted": "52m",
+      "planned_tss": 21,
+      "duration_hours": 0.85,
+      "duration_formatted": "51m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Salut Alphabete ! Pr\u00e9pare-toi pour la course. 8m ramp 45-75% 85rpm\n\nMain Set\n- Race Pace 1 17m 87-95% 90rpm\n- Recovery 5m 55%\n- Race Pace 2 17m 87-95% 90rpm\n\nCooldown\n- Bravo Alphabete, excellente s\u00e9ance. 5m ramp 65-45%\n\n[Weekly Plan - Peak]"
+      "description": "Warmup\n- Salut Alphabete ! Pr\u00e9pare-toi pour une sortie active. 8m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 19m 45-50% 85rpm intensity=recovery\n- Loosen Up 19m 50-55% 90rpm intensity=recovery\n\nCooldown\n- Bravo Alphabete ! Profite bien de la r\u00e9cup\u00e9ration. 5m ramp 55-45%"
     },
     {
       "id": 123023171,
@@ -1617,17 +1617,18 @@
       "description_preview": "Warmup\n- Salut Alphabete ! Pr\u00e9pare-toi pour la r\u00e9cup\u00e9ration. 5m ramp 45-55% 85rpm\nMain Set"
     },
     {
-      "id": 123023235,
+      "id": 123575422,
       "date": "2026-08-11",
-      "name": "IntervalCoach - Ouvertures Course",
+      "name": "IntervalCoach - R\u00e9cup\u00e9ration Douce",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 24,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": "5m @152W | 12m @178W | 3\u00d730s @270W / 2m rec | 15s @382W | 2m @140W | 15s @382W | 3m @140W",
+      "planned_tss": 15,
+      "duration_hours": 0.62,
+      "duration_formatted": "37m",
+      "workout_summary": null,
       "has_terrain": false,
-      "start_time": "09:00"
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Salut Alphabete! Douceur pour la course. 6m ramp 45-55% 85rpm\nMain Set"
     },
     {
       "id": 123350111,
@@ -1644,7 +1645,7 @@
       "description_preview": "Warmup\n- Salut Alphabete! Une sortie r\u00e9cup\u00e9ration aujourd'hui. 5m ramp 45-55% 85rpm\nMain Set"
     },
     {
-      "id": 123335790,
+      "id": 123575424,
       "date": "2026-08-14",
       "name": "IntervalCoach - R\u00e9cup\u00e9ration Active",
       "type": "WORKOUT",
@@ -1655,7 +1656,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description_preview": "Warmup\n- Salut Alphabete ! Pr\u00e9paration avant la course. 5m ramp 45-55% 85rpm\nMain Set"
+      "description_preview": "Warmup\n- Salut Alphabete ! Jour de r\u00e9cup\u00e9ration en selle. 5m ramp 45-55% 85rpm\nMain Set"
     },
     {
       "id": 123023247,
@@ -1688,11 +1689,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 19,
-    "success": 4,
-    "patternA": 4,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 15
+    "bail_no_match": 16
   },
   "weekly_summary": {
     "total_training_hours": 4.58,
