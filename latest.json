@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-19T03:50:32.639147",
+    "last_updated": "2026-07-19T06:24:30.002363",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -105,7 +105,7 @@
       "sleep": {
         "status": "unavailable",
         "hours": null,
-        "quality": null
+        "quality": 4
       },
       "acwr": {
         "status": "red",
@@ -205,17 +205,17 @@
       "weight_kg": 100.0,
       "resting_hr": 50,
       "hrv": null,
-      "sleep_quality": null,
+      "sleep_quality": 4,
       "sleep_hours": null,
       "sleep_formatted": null,
       "sleep_score": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 3,
+      "soreness": 2,
+      "stress": 2,
+      "mood": 4,
+      "motivation": 3,
+      "injury": 1,
+      "hydration": 1,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
@@ -542,7 +542,7 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "race_proximity": 28,
-          "next_week_load": 4.57,
+          "next_week_load": 2.74,
           "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 1.0
         },
@@ -577,7 +577,7 @@
     "p_max": 593,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-19T03:50:32.637854",
+    "calculation_timestamp": "2026-07-19T06:24:30.001174",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -1374,18 +1374,18 @@
       "hrv_sdnn": null,
       "sleep_hours": null,
       "sleep_formatted": null,
-      "sleep_quality": null,
+      "sleep_quality": 4,
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 3,
+      "soreness": 2,
+      "stress": 2,
+      "mood": 4,
+      "motivation": 3,
+      "injury": 1,
+      "hydration": 1,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
@@ -1408,18 +1408,18 @@
   ],
   "planned_workouts": [
     {
-      "id": 123023171,
+      "id": 123706679,
       "date": "2026-07-20",
-      "name": "IntervalCoach - Endurance progressive",
+      "name": "IntervalCoach - Course A\u00e9robie Rythm\u00e9e",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 45,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
+      "sport_type": "Run",
+      "planned_tss": 54,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": "2 \u00d7 3m | 2m | 3\u00d79m / 30s rec | 8m | 30s | 3m | 2m",
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Salut Alphabete! \u00c9chauffement tranquille avant l'effort. 9m ramp 45-75% 85rpm\n\nMain Set\n- Low 15m 65% 85rpm\n- Mid 15m 69% 88rpm\n- Upper 15m 73% 90rpm\n\nCooldown\n- Bien jou\u00e9 Alphabete, r\u00e9cup\u00e8re bien. 6m ramp 65-45%\n\n[Weekly Plan - Peak]"
+      "description": "Warmup\n- Bonjour Alphabete, endurance et acc\u00e9l\u00e9rations ! 3m 63-67% pace\n- 3m 74-78% pace\n- 2m 85-89% pace\n\nMain Set\n3x\n- Aerobic 9m 78-87% pace\n- Pickup 30s 88-94% pace\n\n- Aerobic 4 8m 78-87% pace\n- Pickup 4 30s 88-94% pace\n\nCooldown\n- 3m 76-80% pace\n- Belle course, Alphabete. Ralentis. 2m 63-67% pace\n\n[Weekly Plan - Peak]"
     },
     {
       "id": 123335397,
@@ -1450,32 +1450,32 @@
       "description": "Warmup\n- Salut Alphabete! Endurance et relances au programme. 14m ramp 45-75% 85rpm\n\nMain Set\n4x\n- Endurance 12m 65-75% 88rpm\n- Pickup 2m 76-82% 92rpm\n\nRecovery\n- Endurance 5 13m 65-75% 88rpm\n\nCooldown\n- Super boulot, profite de la r\u00e9cup\u00e9ration. 9m ramp 65-45%"
     },
     {
-      "id": 123023179,
+      "id": 123706692,
       "date": "2026-07-24",
-      "name": "IntervalCoach - Endurance Mont\u00e9e",
+      "name": "IntervalCoach - Sprints Neuromusculaires",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 47,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": "9m @152W | 4\u00d78m @178W / 1m rec | 9m @178W | 6m @140W",
+      "planned_tss": 51,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h4m50s",
+      "workout_summary": "10m @152W | 5\u00d79m @178W / 10s rec | 2m @166W | 7m @140W",
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Salut Alphabete ! Endurance et mont\u00e9es en puissance aujourd'hui. 9m ramp 45-75% 85rpm\n\nMain Set\n4x\n- Endurance 8m 65-75% 88rpm\n- Spin-Up 1m 75% 110rpm\n\nRecovery\n- Endurance 5 9m 65-75% 88rpm\n\nCooldown\n- Bravo Alphabete, savoure la r\u00e9cup\u00e9ration. 6m ramp 65-45%\n\n\n[Weekly Plan - Peak]"
+      "description": "Warmup\n- Salut Alphabete! Pr\u00e9pare-toi pour l'endurance et les sprints. 10m ramp 45-75% 85rpm\n\nMain Set\n5x\n- Endurance 9m 65-75% 88rpm\n- Sprint 10s 150% 110rpm\n\nRecovery\n- Endurance 2m 60-70%\n\nCooldown\n- Super travail, profite de la r\u00e9cup\u00e9ration active. 7m ramp 65-45%\n\n[Weekly Plan - Peak]"
     },
     {
-      "id": 123023182,
+      "id": 123706696,
       "date": "2026-07-25",
-      "name": "IntervalCoach - Seuil Doux",
+      "name": "IntervalCoach - Seuil avec Surtensions",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 86,
-      "duration_hours": 1.33,
-      "duration_formatted": "1h20m",
+      "sport_type": "Run",
+      "planned_tss": 69,
+      "duration_hours": 0.95,
+      "duration_formatted": "57m15s",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Salut Alphabete ! Pr\u00e9pare-toi pour le Sweet Spot. 9m ramp 45-75% 85rpm\n- Primer 1 1m 91% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 91% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n- Endurance 4m 65-75% 85rpm\n- Sweet Spot 1 12m 88-92% 90rpm\n- Recovery 3m 55%\n- Sweet Spot 2 11m 89% 90rpm\n- Recovery 3m 55%\n- Sweet Spot 3 10m 90% 90rpm\n- Recovery 3m 55%\n- Sweet Spot 4 9m 90-94% 90rpm\n- Endurance 5m 65-75% 85rpm\n\nCooldown\n- Super travail, Alphabete ! Profite de la r\u00e9cup\u00e9ration. 8m ramp 65-45%\n\n[Weekly Plan - Peak]"
+      "description": "Warmup\n- Bonjour Alphabete ! Course \u00e0 seuil et pointes. 3m 63-67% pace\n- 6m 75-79% pace\n\nMain Set\n- Endurance 4m 76-80% pace\n- Threshold 1 8m 95-100% pace\n- Surge 1 45s 101-115% pace\n- Jog Recovery 3m 65-77% pace\n- Threshold 2 8m 95-100% pace\n- Surge 2 45s 101-115% pace\n- Jog Recovery 3m 65-77% pace\n- Threshold 3 8m 95-100% pace\n- Surge 3 45s 101-115% pace\n- Endurance 6m 76-80% pace\n\nCooldown\n- 3m 76-80% pace\n- Belle course, Alphabete. Ralentis. 3m 63-67% pace\n\n[Weekly Plan - Peak]"
     },
     {
       "id": 123023184,
@@ -1589,18 +1589,18 @@
       "description_preview": "Warmup\n- Salut Alphabete ! S\u00e9ance de r\u00e9cup\u00e9ration en douceur. 8m ramp 45-55% 85rpm\nMain Set"
     },
     {
-      "id": 123350108,
+      "id": 123706709,
       "date": "2026-08-10",
-      "name": "IntervalCoach - R\u00e9cup\u00e9ration Active",
+      "name": "IntervalCoach - Course de r\u00e9cup\u00e9ration",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 13,
-      "duration_hours": 0.53,
-      "duration_formatted": "32m",
+      "sport_type": "Run",
+      "planned_tss": 20,
+      "duration_hours": 0.45,
+      "duration_formatted": "27m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description_preview": "Warmup\n- Salut Alphabete ! Pr\u00e9pare-toi pour la r\u00e9cup\u00e9ration. 5m ramp 45-55% 85rpm\nMain Set"
+      "description_preview": "Warmup\n- Salut Alphabete ! Course de r\u00e9cup\u00e9ration maintenant. 4m ramp 65-71% pace\nMain Set"
     },
     {
       "id": 123575422,
@@ -1631,18 +1631,18 @@
       "description_preview": "Warmup\n- Salut Alphabete! Une sortie r\u00e9cup\u00e9ration aujourd'hui. 5m ramp 45-55% 85rpm\nMain Set"
     },
     {
-      "id": 123644033,
+      "id": 123706718,
       "date": "2026-08-14",
       "name": "IntervalCoach - R\u00e9cup\u00e9ration Active",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 13,
-      "duration_hours": 0.53,
-      "duration_formatted": "32m",
+      "planned_tss": 12,
+      "duration_hours": 0.6,
+      "duration_formatted": "36m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description_preview": "Warmup\n- Bonjour Alphabete ! Pr\u00e9pare-toi pour la r\u00e9cup\u00e9ration. 5m ramp 45-55% 85rpm\nMain Set"
+      "description_preview": "Warmup\n- Salut Alphabete ! R\u00e9cup\u00e9ration active aujourd'hui. 5m ramp 45-55% 85rpm\nMain Set"
     },
     {
       "id": 123023247,
@@ -1675,11 +1675,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 18,
-    "success": 3,
-    "patternA": 3,
+    "success": 4,
+    "patternA": 4,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 15
+    "bail_no_match": 14
   },
   "weekly_summary": {
     "total_training_hours": 4.58,
