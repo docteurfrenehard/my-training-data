@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-20T12:29:26.319758",
+    "last_updated": "2026-07-20T14:39:29.365960",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -540,7 +540,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.97,
+          "planned_tss_delta": 1.34,
           "hard_sessions_planned": 6,
           "race_proximity": 27,
           "next_week_load": 0.68,
@@ -580,13 +580,13 @@
     "p_max": 593,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-20T12:29:26.318615",
+    "calculation_timestamp": "2026-07-20T14:39:29.365189",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
       "activities_7d": 4,
       "activities_28d": 10,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 8,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -1411,18 +1411,32 @@
   ],
   "planned_workouts": [
     {
-      "id": 123706679,
+      "id": 124173702,
       "date": "2026-07-20",
-      "name": "IntervalCoach - Course A\u00e9robie Rythm\u00e9e",
+      "name": "IntervalCoach - Endurance V\u00e9lo",
       "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 54,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
-      "workout_summary": "2 \u00d7 3m | 2m | 3\u00d79m / 30s rec | 8m | 30s | 3m | 2m",
+      "sport_type": "Ride",
+      "planned_tss": 26,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Bonjour Alphabete, endurance et acc\u00e9l\u00e9rations ! 3m 63-67% pace\n- 3m 74-78% pace\n- 2m 85-89% pace\n\nMain Set\n3x\n- Aerobic 9m 78-87% pace\n- Pickup 30s 88-94% pace\n\n- Aerobic 4 8m 78-87% pace\n- Pickup 4 30s 88-94% pace\n\nCooldown\n- 3m 76-80% pace\n- Belle course, Alphabete. Ralentis. 2m 63-67% pace\n\n[Weekly Plan - Peak]"
+      "description": "Warmup\n- Warm up 10m 50%\n\nMain Set\n- Endurance - 25m 65%\n\nCooldown\n- Cool down 10m 50%"
+    },
+    {
+      "id": 124178225,
+      "date": "2026-07-20",
+      "name": "IntervalCoach - Endurance A\u00e9robie",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 26,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Salut Alphabete ! Une course d'endurance vous attend. 1m 63-67% pace\n- 2m 75-79% pace\n\nMain Set\n- Settle In 7m 76-80% pace\n- Aerobic 7m 78-87% pace\n- Cruise 6m 87-78% pace\n\nCooldown\n- 1m 76-80% pace\n- Belle course, terminez en douceur. 1m 63-67% pace"
     },
     {
       "id": 123335397,
@@ -1437,20 +1451,6 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Bonjour Alphabete ! Endurance longue \u00e0 venir. 14m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 17m 65% 85rpm\n- Build 17m 67% 88rpm\n- Upper 17m 70-74% 90rpm\n- Cruise 16m 74-70% 88rpm\n\nCooldown\n- Bravo Alphabete, belle s\u00e9ance ! 9m ramp 65-45%"
-    },
-    {
-      "id": 124146929,
-      "date": "2026-07-23",
-      "name": "IntervalCoach - Seuil avec Surtensions",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 54,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Salut Alphabete! Course \u00e0 seuil et pointes \u00e0 venir. 2m 63-67% pace\n- 2m 74-78% pace\n- 2m 85-89% pace\n\nMain Set\n- Threshold 1 8m 95-100% pace\n- Surge 1 45s 101-115% pace\n- Jog Recovery 3m 65-77% pace\n- Threshold 2 8m 95-100% pace\n- Surge 2 45s 101-115% pace\n- Jog Recovery 45s 65-77% pace\n- Threshold 3 8m 95-100% pace\n- Surge 3 45s 101-115% pace\n\nCooldown\n- 2m 76-80% pace\n- Super effort Alphabete, r\u00e9cup\u00e8re maintenant. 2m 63-67% pace\n\n[Weekly Plan - Peak]"
     },
     {
       "id": 124146993,
@@ -1481,18 +1481,18 @@
       "description": "Warmup\n- Salut Alphabete ! Endurance running awaits. 2m 63-67% pace\n- 5m 75-79% pace\n\nMain Set\n- Settle In 11m 76-80% pace\n- Aerobic 11m 78-87% pace\n- Cruise 11m 87-78% pace\n\nCooldown\n- 3m 76-80% pace\n- Super Alphabete, r\u00e9cup\u00e8re tranquillement. 2m 63-67% pace"
     },
     {
-      "id": 123706696,
+      "id": 124178264,
       "date": "2026-07-25",
-      "name": "IntervalCoach - Seuil avec Surtensions",
+      "name": "IntervalCoach - Seuil Contr\u00f4l\u00e9",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 69,
-      "duration_hours": 0.95,
-      "duration_formatted": "57m15s",
+      "planned_tss": 64,
+      "duration_hours": 0.77,
+      "duration_formatted": "46m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Bonjour Alphabete ! Course \u00e0 seuil et pointes. 3m 63-67% pace\n- 6m 75-79% pace\n\nMain Set\n- Endurance 4m 76-80% pace\n- Threshold 1 8m 95-100% pace\n- Surge 1 45s 101-115% pace\n- Jog Recovery 3m 65-77% pace\n- Threshold 2 8m 95-100% pace\n- Surge 2 45s 101-115% pace\n- Jog Recovery 3m 65-77% pace\n- Threshold 3 8m 95-100% pace\n- Surge 3 45s 101-115% pace\n- Endurance 6m 76-80% pace\n\nCooldown\n- 3m 76-80% pace\n- Belle course, Alphabete. Ralentis. 3m 63-67% pace\n\n[Weekly Plan - Peak]"
+      "description": "Warmup\n- Salut Alphabete ! R\u00e9vision de course \u00e0 venir. 2m 63-67% pace\n- 2m 74-78% pace\n- 3m 85-89% pace\n\nMain Set\n- Controlled Open 10m 88-94% pace\n- Race Effort 15m 95-100% pace\n- Finishing Kick 9m 99-103% pace\n\nCooldown\n- 3m 76-80% pace\n- Super course, Alphabete. R\u00e9cup\u00e9ration active. 2m 63-67% pace\n\n[Weekly Plan - Peak]"
     },
     {
       "id": 124146995,
@@ -1692,11 +1692,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 19,
-    "success": 2,
-    "patternA": 2,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 17
+    "bail_no_match": 18
   },
   "weekly_summary": {
     "total_training_hours": 3.57,
