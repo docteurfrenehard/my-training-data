@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-24T03:40:04.239115",
+    "last_updated": "2026-07-24T06:12:45.286465",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -582,7 +582,7 @@
     "p_max": 593,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-24T03:40:04.237919",
+    "calculation_timestamp": "2026-07-24T06:12:45.285133",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -1523,8 +1523,22 @@
   ],
   "planned_workouts": [
     {
-      "id": 124146997,
+      "id": 124832777,
       "date": "2026-07-24",
+      "name": "IntervalCoach - Endurance A\u00e9robie",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 38,
+      "duration_hours": 0.9,
+      "duration_formatted": "54m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- 5m ramp 40-60% pace\n\nMain Set\n- \u00c9chauffement 10m 58-62% pace\n- Endurance A\u00e9robie (Zone 2) 25m 73-77% pace\n- Retour au calme 10m 58-62% pace\n\nCooldown\n- 4m ramp 60-40% pace"
+    },
+    {
+      "id": 124146997,
+      "date": "2026-07-25",
       "name": "IntervalCoach - Endurance A\u00e9robie",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -1535,20 +1549,6 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- Salut Alphabete ! Endurance running awaits. 2m 63-67% pace\n- 5m 75-79% pace\n\nMain Set\n- Settle In 11m 76-80% pace\n- Aerobic 11m 78-87% pace\n- Cruise 11m 87-78% pace\n\nCooldown\n- 3m 76-80% pace\n- Super Alphabete, r\u00e9cup\u00e8re tranquillement. 2m 63-67% pace"
-    },
-    {
-      "id": 124178264,
-      "date": "2026-07-25",
-      "name": "IntervalCoach - Seuil Contr\u00f4l\u00e9",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 64,
-      "duration_hours": 0.77,
-      "duration_formatted": "46m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Salut Alphabete ! R\u00e9vision de course \u00e0 venir. 2m 63-67% pace\n- 2m 74-78% pace\n- 3m 85-89% pace\n\nMain Set\n- Controlled Open 10m 88-94% pace\n- Race Effort 15m 95-100% pace\n- Finishing Kick 9m 99-103% pace\n\nCooldown\n- 3m 76-80% pace\n- Super course, Alphabete. R\u00e9cup\u00e9ration active. 2m 63-67% pace\n\n[Weekly Plan - Peak]"
     },
     {
       "id": 124146995,
